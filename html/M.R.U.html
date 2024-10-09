@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/M.R.U.css">
+    <title>Fisíca</title>
+    <link rel="icon" href="../img/1467187.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <img src="../img/1467187.png" alt="logo" style="width: 50px;" class="img-fluid">
+            <a class="navbar-brand ms-3" href="../index.html" style="font-size: 25px;">Física</a>
+          </div>
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <img src="../img/1467187.png" alt="logo" style="width: 30px;" class="img-fluid">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link active"target="_blank" href="https://definicion.de/movimiento-uniforme/">Definición</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link active"target="_blank" href="https://es.wikipedia.org/wiki/Movimiento_rectil%C3%ADneo_uniforme">Wikipedia</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link active"target="_blank" href="https://edu.gcfglobal.org/es/movimiento/movimiento-rectilineo-uniforme/1/">GCFglobal</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Temas
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="/html/conversion.html">Conversión de unidades</a></li>
+                    <li><a class="dropdown-item" href="/html/M.R.U.A.html">Movimiento uniforme acelerado</a></li>
+                    <li><a class="dropdown-item" href="/html/caida_libre.html">Caída libre</a></li>
+                    <li><a class="dropdown-item" href="/html/vectores.html">Vectores</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav><br><br><br><br>
+    <header class="container text-center my-5">
+        <h1 class="display-4">Movimiento Uniforme</h1>
+        <p class="lead">El MRU se define como el movimiento en el cual un objeto se desplaza en línea recta, en una sola dirección, recorriendo distancias iguales en el mismo intervalo de tiempo, manteniendo en todo su movimiento una velocidad constante y sin aceleración.</p>
+    </header>
+
+    <section class="container text-center my-4">
+        <h2 class="h4">Imágenes del MRU</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+                <img src="https://ingenierizando.com/wp-content/uploads/2023/02/MRU-movimiento-rectilineo-uniforme-.png" alt="M.R.U" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://tomi-digital-resources.storage.googleapis.com/images/classes/resources/rsc-179055-5ed195fe2db7c.jpeg" alt="M.R.U" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://i0.wp.com/fisymat.com/wp-content/uploads/2023/08/Movimiento-Rectilineo-uniforme-1.webp?resize=550%2C259&ssl=1" alt="M.R.U" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="container my-4">
+        <h2 class="h4">Fórmulas del Movimiento Rectilíneo Uniforme (MRU)</h2>
+        <p>A continuación, se presentan las fórmulas fundamentales del MRU, junto con una breve explicación de cada una:</p>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h4>Datos y sus propiedades:</h4>
+                <p><strong>v</strong>: Velocidad (en metros por segundo, m/s)<br>
+                   <strong>d</strong>: Distancia recorrida (en metros, m)<br>
+                   <strong>t</strong>: Tiempo transcurrido (en segundos, s)</p>
+            </li>
+            <li class="list-group-item">
+                <h4>1. Velocidad:</h4>
+                <p><strong>v = d / t</strong><br>Esta fórmula calcula la velocidad promedio de un objeto al dividir la distancia total recorrida entre el tiempo total.</p>
+            </li>
+            <li class="list-group-item">
+                <h4>2. Tiempo:</h4>
+                <p><strong>t = d / v</strong><br>Esta fórmula se utiliza para calcular el tiempo que tarda un objeto en recorrer una distancia dada a una velocidad constante.</p>
+            </li>
+            <li class="list-group-item">
+                <h4>3. Distancia:</h4>
+                <p><strong>d = v * t</strong><br>Esta fórmula permite calcular la distancia total recorrida al multiplicar la velocidad constante por el tiempo de movimiento.</p>
+            </li>
+        </ul>
+    </section>
+
+ 
+    <section class="container my-4">
+        <h2 class="h4">Fórmulas Adicionales del MRU</h2>
+        <p>Además de las fórmulas básicas, el MRU involucra algunas operaciones adicionales:</p>
+        <h4>1. Velocidad Promedio</h4>
+        <p>Se calcula como:</p>
+        <p><strong>v_prom = Δd / Δt</strong><br>donde Δd es el desplazamiento total y Δt el tiempo total transcurrido.</p>
+
+        <h4>2. Distancia Recorrida</h4>
+        <p><strong>d_total = v * t</strong><br>Esta fórmula se usa para calcular la distancia total recorrida a una velocidad constante durante un tiempo dado.</p>
+
+        <h4>Ejemplo Práctico</h4>
+        <p>Si un coche se mueve a una velocidad constante de 60 km/h, ¿cuánto tiempo tardará en recorrer 120 km?</p>
+        <p><strong>t = d / v = 120 km / 60 km/h = 2 horas</strong></p>
+    </section>
+
+  
+    <section class="container my-4">
+        <h3>¡Haz tus cálculos!</h3>
+        <div class="mb-3">
+            <label for="tiempo" class="form-label">Tiempo (s)</label>
+            <input type="number" id="tiempo" name="tiempo" class="form-control" placeholder="Ingresa tiempo">
+        </div>
+        <div class="mb-3">
+            <label for="distancia" class="form-label">Distancia (m)</label>
+            <input type="number" id="distancia" name="distancia" class="form-control" placeholder="Ingresa distancia">
+        </div>
+        <div class="mb-3">
+            <label for="velocidad" class="form-label">Velocidad (m/s)</label>
+            <input type="number" id="velocidad" name="velocidad" class="form-control" placeholder="Ingresa velocidad">
+        </div>
+        <button type="button" id="calcular" class="btn btn-primary">Calcular</button>
+
+        <h3 class="mt-4">Resultado:</h3>
+        <div class="resultado alert alert-info"></div>
+
+        <h4 class="mt-4">Operaciones Adicionales</h4>
+        <div class="mb-3">
+            <label for="desplazamiento" class="form-label">Desplazamiento Total (Δd)</label>
+            <input type="number" id="desplazamiento" name="desplazamiento" class="form-control" placeholder="Ingresa desplazamiento">
+        </div>
+        <div class="mb-3">
+            <label for="tiempo_total" class="form-label">Tiempo Total (Δt)</label>
+            <input type="number" id="tiempo_total" name="tiempo_total" class="form-control" placeholder="Ingresa tiempo total">
+        </div>
+        <button type="button" id="calcularVelocidadPromedio" class="btn btn-primary">Calcular Velocidad Promedio</button>
+
+        <div class="resultados_adicionales mt-4">
+            <h4>Distancia Total Recorrida</h4>
+            <div class="resultado_distancia alert alert-info"></div>
+            <h4>Velocidad Promedio</h4>
+            <div class="resultado_velocidad_promedio alert alert-info"></div>
+        </div>
+    </section>
+
+
+  
+
+    <section class="container my-4">
+        <h3>Deja tu comentario:</h3>
+        <form id="comentarioForm">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" class="form-control" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="comentario" class="form-label">Comentario:</label>
+                <textarea id="comentario" class="form-control" rows="4" placeholder="Escribe tu comentario aquí..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Comentario</button>
+        </form>
+        <div id="comentarios" class="mt-4"></div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Explorando la Física. Todos los derechos reservados.</p>
+        <p>Dirección: Av 30 de Agosto, Pereira, Colombia | Tel: (123) 456-7890 | Email: sergiopereza@gmail.com</p>
+    </footer>
+
+
+
+    <script src="/js/M.R.U.js"></script>
+</body>
+</html>
